@@ -1,0 +1,147 @@
+/* body {
+  background-color: #282c34;
+}
+
+button {
+  background-color:lightslategrey
+} */
+
+/* .center {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1lf);
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.center > td{
+  padding: 8px 4px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+} */
+
+html { 
+  padding: 25%;
+  background-image: url("../src/img/grass.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(90, 90, 90); */
+}
+
+body {
+  /* background-image: url("../src/img/concrete.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: grey;
+  padding: 10px 100px 100px 100px;
+  border: 5px dashed white;
+}
+
+h1 {
+  color: #F48221;
+  text-shadow: 2px 2px black;
+}
+
+p {
+  color: white;
+}
+
+button {
+  padding: 10px;
+  background-color: #417DC1;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 4px;
+  font-size: 10px;
+}
+
+th {
+  background-color: rgb(124, 123, 124);
+}
+
+td {
+  background-color: rgb(201, 199, 199);
+}
+
+form {
+  display: flex;
+  gap: 2px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 15px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.scroll {
+  flex: 1;
+  overflow-y: scroll;
+}
